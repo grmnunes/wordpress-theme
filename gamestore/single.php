@@ -27,11 +27,17 @@
             ));
 
             if($related_posts->have_posts()) {
-                while($related_posts->have_posts()){
-                    $related_posts->the_post();
+?>
+                <div class="row">
+<?php
+                    while($related_posts->have_posts()){
+                        $related_posts->the_post();
 
-                    get_template_part('partials/post', 'related');
-                }
+                        get_template_part('partials/post', 'related');
+                    }
+?>
+                </div>
+<?php
 
                 wp_reset_postdata();
             } else {
