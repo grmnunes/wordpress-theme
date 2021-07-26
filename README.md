@@ -12,7 +12,7 @@ Para utilizar o tema basta colar o diretorio "gamestore" dentro da pasta de inst
 ```bash
 wordpress/wp-content/themes
 ```
-Você pode ver o tema funcionando [aqui.](http://projetoindex.atwebpages.com/) 
+Você pode ver o tema funcionando [aqui.](http://projetoindex.great-site.net/) 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
